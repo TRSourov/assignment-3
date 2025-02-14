@@ -41,24 +41,23 @@
           </div>
           <div class="navbar-end">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block h-8 w-8 stroke-current">
+              <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+               d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
             </div>
             <div class="hidden gap-4 my-3 lg:flex">
               <i class="fa-regular fa-bell my-auto text-2xl"></i>
               <i class="fa fa-search my-auto text-2xl" aria-hidden="true"></i>
-              <a class="btn border-2 bg-transparent border-[#FFDC26] px-6 text-xl">Login</a>
-              <a class="btn bg-[#FFDC26] px-6 text-xl">Register</a>
+              <a class="btn border-2 bg-transparent border-[#FFDC26] px-6 text-xl hover:bg-yellow-400">Login</a>
+              <a class="btn bg-[#FFDC26] px-6 text-xl hover:bg-red-500">Register</a>
             </div>
           </div>  
         </div>
@@ -71,7 +70,7 @@
               the Bes</h1>
           <p class="text-xl my-5">Discover a world of treats, toys, and essentials handpicked for <br>
              your furry friends. Shop now and make tails wag with joy!</p>
-          <a class="btn bg-[#FFDC26]">Find a pet</a>
+          <a class="btn animate-bounce bg-[#FFDC26] hover:bg-red-500 px-8">Find a pet</a>
         </div>
           
         <div>
@@ -82,7 +81,7 @@
     <main>
       <!-- Categories -->
       <div class="lg:container my-24 mx-auto">
-        <h3 class="font-adlam text-4xl mb-12">Browse By Categories</h3>
+        <h3 class="font-adlam text-4xl mb-12 ml-3">Browse By Categories</h3>
       <div class="grid grid-cols-2 gap-5 lg:grid-cols-6">
 
         <!-- card 1 -->
@@ -132,9 +131,9 @@
             <!-- Dog's T-shirt -->
           <div class="w-96 bg-[#F9DF8A]  mx-5 rounded-lg mb-10 lg:mb-0">
             <div class="w-72 absolute mt-10 ml-10">
-              <h4 class="text-2xl font-bold">T-shirt For Dogs</h4>
+              <h4 class="text-2xl font-adlam">T-shirt For Dogs</h4>
               <p class="text-base py-3">Discover a world of treats, toy and <br> essentials handpicked for</p>
-              <a class="btn bg-white px-8">Shop Now</a>
+              <a class=" btn bg-white hover:bg-yellow-400 px-8">Shop Now</a>
             </div>
             <div class="relative h-96 w-96">
                 <img src="c1-assets/cute-pet-small.png" class="absolute bottom-0 left-44 w-max" alt="">
@@ -336,7 +335,116 @@
         </div>
         </div>  
        </div>
+       <!-- Available Brands -->
+       <div class="container mx-auto my-20">
+        <h3 class="text-4xl my-5 flex justify-center font-adlam">Available Brands</h3>
+        <p class="flex justify-center my-10 px-3">We stock all available brands in Bangladesh and pick the very best so you can be assured of the quality. There can be no compromises when it comes to quality.</p>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-10 lg:pl-14 px-3">
+          <div>
+            <img src="c1-assets/brand-1.png" alt="">
+          </div>
+          <div>
+            <img src="c1-assets/brand-2.png" alt="">
+          </div>
+          <div>
+            <img src="c1-assets/brand-3.jpg" alt="">
+          </div>
+          <div>
+            <img src="c1-assets/brand-4.png" alt="">
+          </div>
+          <div>
+            <img src="c1-assets/brand-5.png" alt="">
+          </div>
+          <div>
+            <img src="c1-assets/brand-6.png" alt="">
+          </div>
+          <div>
+            <img src="c1-assets/brand-7.png" alt="">
+          </div>
+          <div>
+            <img src="c1-assets/brand-8.png" alt="">
+          </div>
+        </div>
+        
+       </div>
+       <!-- collapse section -->
+        <div class="container mx-auto my-20 relative">
+          <div>
+            <h3 class="text-4xl my-10 lg:my-20 ml-3 font-adlam">Everyday low Price</h3>
+            <div class="lg:flex mb-96">
+              <!-- big card -->
+             <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] mx-3 lg:mr-10 lg:w-3/5 lg:flex justify-center items-center justify-around rounded-lg">
+              <div class="-mb-10 lg:mb-0 pt-3 ml-5 lg:ml-16">
+               <p class="text-xl hidden lg:grid">Under Price</p>
+               <h4 class="text-3xl mt-5 mb-2 font-adlam">Pet Grooming Mitt</h4>
+               <h5 class="text-2xl text-white mt-2 mb-5 hidden lg:grid">(Easy Hair Removal)</h5>
+               <h2 class="text-5xl text-white lg:text-black font-adlam">$7.99</h2>
+              </div>
+              <div>
+               <img src="c1-assets/cute-dog-mid.png" class="w-3/5 ml-40 lg:ml-0 lg:w-full" alt="">
+              </div>    
+              </div>
+             <!-- small card -->
+              <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] lg:w-2/5 rounded-lg mx-3 mt-5 lg:my-0">
+               <div class="absolute mt-2 ml-6 lg:ml-14 lg:mt-10">
+                 <h4 class="text-3xl mt-5 mb-5 font-adlam">T-Shirt for Dogs</h4>
+                 <h2 class="text-5xl text-[#FFDC26] font-adlam">$7.99</h2>
+               </div>
+               <div class="flex justify-end">
+                 <img src="c1-assets/cute-pet-mid.png" class=" mt-20 w-3/5 lg:max-w-full" alt="">
+               </div>               
+              </div>
+            </div>
+            
+          </div>
 
+          <div class="lg:flex lg:w-full lg:-mt-64 bg-[#FFF9F4] rounded-2xl mx-3 px-3 absolute -mt-80">
+            <div class="lg:w-2/5 flex justify-center">
+                <img src="c1-assets/cute-pet-mid.png" class="py-2 lg:py-9 h-4/5">             
+            </div>
+            <div class="flex items-center lg:w-3/5">
+              <div>
+                <h3 class="text-4xl font-adlam">Get Pawsome News!</h3>
+                <p class="text-xl my-5">Exclusive training tips, ticks, product deals and more.</p>
+                <input type="email" placeholder="Enter email...." class=" mb-5 py-3 pl-3 pr-28 rounded-lg">
+                <br>
+                <a class="btn bg-[#FFDC26] hover:bg-red-700 text-xl mb-5 px-5">Subscribe</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
     </main>
+
+
+    <footer class="bg-[#FFDC2680] pt-96 lg:pt-80 pb-20" >
+      <div class="container mx-auto lg:flex justify-between">
+        <div class="mx-3 lg:w-1/4">
+          <div class="flex">
+            <img src="c1-assets/logo-footer.png" alt="paw of a cat">
+            <a class="btn btn-ghost text-2xl">Browse<span class="text-[#FFDC26] -mx-2">4</span>Pets</a>
+          </div>
+          <p class="text-xl text-[#111111B3] py-4">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+        </div>
+
+        <div class="flex flex-col mx-3 gap-3 my-5">
+          <a class="text-xl" href="">Find a Pet</a>
+          <a class="text-xl" href="">Breeds</a>
+          <a class="text-xl" href="">Contact Us</a>
+        </div>
+
+        <div class="lg:flex items-end lg:pb-8">
+          <div class="mx-3 flex flex-col">
+            <p class="text-lg my-3">Follow Us</p>
+            <div class="flex gap-6">
+            <i class="fa-brands fa-facebook text-xl"></i>
+            <i class="fa-brands fa-instagram text-xl"></i>
+            <i class="fa-brands fa-linkedin text-xl"></i>
+            <i class="fa-brands fa-youtube text-xl"></i>
+            </div>    
+          </div>
+        </div>        
+      </div>
+    </footer>
 </body>
 </html>
